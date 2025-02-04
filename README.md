@@ -464,4 +464,7 @@ kubectl get ns
 kubectl get nodes
 ```
 
+https://www.youtube.com/watch?v=nIxl2PcEs-0
+https://www.youtube.com/watch?v=D_3q4HeAxp8
+
 #### Congrats on building an Internal Developer Platform with vCluster!
