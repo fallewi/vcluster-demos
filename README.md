@@ -34,7 +34,12 @@ You can port forward the service like this:
 ```bash
 kubectl port-forward -n argocd service/argocd-server 8080:443
 ```
+#### Install the argocd CLI
 
+```
+curl -sSL -o /usr/local/bin/argocd https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
+chmod +x /usr/local/bin/argocd
+```
 #### Login to the CLI
 
 ```bash
